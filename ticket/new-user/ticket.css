@@ -1,0 +1,124 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background: #bbbbf5;
+}
+
+.discount-calculator {
+  width: 100%;
+  height: 100vh;
+  background: #bbbbf5;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.discount-calculator .form {
+  width: 350px;
+  height: 530px;
+  -webkit-box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.46);
+          box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.46);
+  background-color: #fff;
+  color: black;
+  padding: 40px;
+}
+
+.discount-calculator .form legend {
+  font-weight: bold;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.discount-calculator .form p [id] {
+  margin-top: 30px;
+}
+
+.discount-calculator .form p input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.discount-calculator .form p button {
+  padding: 0.125rem 0.6025rem;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100%;
+  background-color: #2b0538;
+  color: white;
+}
+
+.discount-calculator .form p a button {
+  margin-top: 30px;
+}
+
+#inner {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  top: 2px;
+  left: 500px;
+  width: 350px;
+  height: 100vh;
+  -webkit-box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.46);
+          box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.46);
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+}
+
+#inner .header {
+  font-weight: bold;
+  text-align: center;
+}
+
+#inner p {
+  font-size: 1.3rem;
+  margin-top: 49px;
+}
+
+#inner hr {
+  margin-top: 2px;
+}
+
+#inner .close {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+#inner .dot {
+  font-weight: bold;
+  text-align: center;
+  font-size: 7rem;
+  position: relative;
+  bottom: 110px;
+}
+
+#inner button {
+  padding: 0.125rem 0.6025rem;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100%;
+  background-color: #2b0538;
+  color: white;
+  position: relative;
+  bottom: 140px;
+}
+/*# sourceMappingURL=ticket.css.map */

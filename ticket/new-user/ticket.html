@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ticket.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="discount-calculator">
+      <div class="form">
+        <form action="">
+          <legend>Discount Calculator</legend>
+          <p>
+            <input
+              type="text"
+              placeholder="Please enter your name"
+              name="fullname"
+              id="name"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="number"
+              placeholder="Please enter your age"
+              name="age"
+              required
+              min="1"
+              id="age"
+            />
+          </p>
+          <p>
+            <input
+              type="password"
+              placeholder="Please enter your password"
+              id="password"
+              name="password"
+              required
+            />
+          </p>
+          <p><button id="calculate">Calculate</button></p>
+          <p>
+            <input
+            readonly
+              name="result"
+              id="result"
+              placeholder="Result"
+            />
+          </p>
+          <p><button id="view-ticket">View ticket</button></p>
+        </form>
+        <p>
+          <a href="../exsiting-user/exsting.html"
+            ><button>Existing User</button></a
+          >
+        </p>
+      </div>
+    </div>
+    <div id="inner">
+      <p class="header">PLEASURE PARK TICKET</p>
+      <p id="ticket-name">FullName: </p>
+      <hr />
+      <p id="ticket-age">Age: </p>
+      <hr />
+      <p id="ticket-discount">Discount Price: &#8358;</p>
+      <hr />
+      <p id="ticket-new">New price: &#8358;</p>
+      <hr />
+      <p class="close">Enjoy your day!!</p>
+      <p class="dot">.....</p>
+      <p><a href="ticket.html"><button>Close</button></a></p>
+  </body>
+  <script src="../../javascript/pleasurep.js"></script>
+</html>

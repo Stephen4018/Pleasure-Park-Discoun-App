@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+.hero {
+  background-color: rgb(98, 40, 117);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  .logo img {
+    width: 100px;
+    margin-left: 50px;
+  }
+  header {
+    margin-right: 50px;
+    ul {
+      display: flex;
+      li {
+        margin: 20px;
+        list-style-type: none;
+        button {
+          padding: 0.125rem 0.6025rem;
+          border-radius: 5px;
+          font-size: 20px;
+        //   background: rgb(71, 37, 77);
+        //   color: white;
+        }
+      }
+    }
+  }
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+
+  .main-right {
+    margin-left: 50px;
+    margin-top: 70px;
+    // width: 40vw;
+    .head {
+      font-size: 4rem;
+      font-weight: bold;
+      font-family: "Helvetica", sans-serif;
+      color: rgb(71, 37, 77);
+    }
+    .head + p {
+      font-size: 32px;
+      margin-top: 4px;
+      line-height: 1.4;
+    }
+    
+    .link {
+      margin-top: 31px;
+      margin-bottom: 12px;
+    
+      button {
+        padding: 1rem 4.375rem;
+        border-radius: 5px;
+        font-size: 20px;
+        background: rgb(71, 37, 77);
+        color: white;
+        
+      }
+    }
+  }
+  .main-left {
+    margin-right: 50px;
+    margin-top: 70px;
+  }
+}
+.icons {
+  .fa-person-swimming {
+    position: relative;
+    bottom: 80px;
+    left: 500px;
+    color: rgb(71, 37, 77);
+  }
+  .fa-table-tennis-paddle-ball {
+    position: relative;
+    bottom: 40px;
+    left: 970px;
+    color: orange;
+  }
+
+  .fa-person-biking {
+    position: relative;
+    bottom: 580px;
+    left: 50px;
+    color: grey;
+  }
+
+  .fa-vr-cardboard {
+    position: relative;
+    bottom: 600px;
+    left: 450px;
+  }
+  .fa-basketball {
+    position: relative;
+    bottom: 600px;
+    left: 850px;
+    color: rgb(238, 103, 48);
+  }
+  .fa-person-running {
+    position: relative;
+    bottom: 140px;
+    left: 450px;
+    color: grey;
+  }
+  .fa-pizza-slice {
+    position: relative;
+    left: 900px;
+    bottom: 120px;
+    color: red;
+  }
+  .fa-champagne-glasses {
+    position: relative;
+    bottom: 400px;
+    left: 30px;
+    color: gold;
+  }
+  .fa-apple-whole {
+    position: relative;
+    bottom: 450px;
+    color: rgb(141, 182, 0);
+    left: 170px;
+  }
+}

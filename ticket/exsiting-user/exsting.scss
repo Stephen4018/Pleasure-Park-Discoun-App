@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background: rgb(187, 187, 245);
+  }
+  
+  .discount-calculator {
+    width: 100%;
+    height: 100vh;
+    background: rgb(187, 187, 245);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .form {
+      width: 350px;
+      height: 490px;
+      box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.46);
+      background-color: #fff;
+      color: black;
+      padding: 40px;
+      legend {
+        font-weight: bold;
+        font-size: 1.9rem;
+        text-align: center;
+      }
+      p [id] {
+        margin-top: 30px;
+      }
+      p input {
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      p button {
+        padding: 0.125rem 0.6025rem;
+        border-radius: 5px;
+        font-size: 20px;
+        width: 100%;
+        background-color: rgb(43, 5, 56);
+        color: white;
+      }
+      p a button{
+        margin-top: 30px;
+      }
+    }
+  }
+  #inner {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 2px;
+    left: 500px;
+    width: 350px;
+    height: 100vh;
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.46);
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    .header {
+      font-weight: bold;
+      text-align: center;
+    }
+    p {
+      font-size: 1.3rem;
+      margin-top: 49px;
+    }
+    hr {
+      margin-top: 2px;
+    }
+    .close {
+      font-weight: bold;
+      text-align: center;
+      font-size: 2.4rem;
+    }
+    .dot {
+      font-weight: bold;
+      text-align: center;
+      font-size: 7rem;
+      position: relative;
+      bottom: 110px;
+    }
+  }
+  
